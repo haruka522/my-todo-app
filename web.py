@@ -11,6 +11,7 @@ def add_todo():
         functions.write_todos(todos)
         st.session_state["new_todo"] = ""
 
+st.set_page_config(page_title="My Todo App", layout="wide")
 
 st.title("My Todo App")
 st.subheader("This is my todo App")
